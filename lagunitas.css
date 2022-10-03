@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(182, 181, 179);
+
+}
+#main{
+    width: 100vw;
+    height:100vh;
+}
+.page1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    z-index: 99;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    height: 80px;
+    /* background-color: #fff; */
+    padding: 20px 60px;
+    
+}
+.nav>img{
+    width: 200px;
+    height: 100%;
+}
+.nav>button{
+    padding: 10px;
+    background-color: rgb(118, 1, 1);
+    color: aliceblue;
+    font-family: gilroy;
+    font-weight: 700;
+}
+.nav2{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
+    line-height: 50px;
+    flex-direction: column;
+    width: 60px;
+    height: 100%;
+    border-right: 2px solid #000;
+    box-shadow: 1px 1px 10px;
+}
+.page1>h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 12vw;
+    color:brown;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+
+}
+.page1>img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: 90%;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+}
+/* =---------------------------------------- */
+.page2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 100px;
+}
+.page2 .left{
+    width: 30%;
+    height: 80%;
+}
+.left>h6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+.left>h1{
+    font-size: 7vw;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.left>p{
+    font-style: italic;
+}
+.left>button{
+    padding: 10px;
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+.page2 .right{
+    width: 30%;
+    height: 80%;
+    /* background-color: antiquewhite; */
+    border: 2px solid #000;
+    box-shadow: 2px 2px 5px;
+    padding: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    font-size: 2vw;
+
+}
+.right>p{
+    border-bottom: 2px solid #000   ;
+}
+/* ---------------------------------------------------- */
+.page3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.page3>h1{
+    padding:0px 70px;
+    color: brown;
+    font-size: 18vw;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+.page3 .mini{
+    width: 100%;
+    height: 70%;
+    padding:0px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.mini .left{
+    width: 35%;
+    height: 90%;
+}
+.left>img{
+    width: 100%;
+    height: 70%;
+}
+.left>h5{
+    font-size: 1.5vw;
+    font-style: italic;
+}
+.mini .right{
+    width: 30%;
+    height: 80%;
+    padding: 50px;
+    font-weight: 100;
+
+}
+/* ================================================== */
+.page4{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.page4 .image{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.image #one{
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width: 25%;
+    height: 40%;
+
+}
+#one .text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    font-weight: 100;
+    left: 35%;
+    top: 15%;
+    text-decoration: underline;
+    color: #fff;
+}
+#one>img{
+    
+    width: 100%;
+    height: 100%;
+}
+.image #two{
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    width: 30%;
+    height: 40%;
+
+}
+#two .text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    font-weight: 100;
+    left: 35%;
+    top: 20%;
+    text-decoration: underline;
+    color: #fff;
+}
+#two>img{
+    width: 100%;
+    height: 100%;
+}
+.image #three{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 40%;
+    height: 80%;
+    transform: rotate(-15deg);
+
+}
+#three>img{
+    width: 100%;
+    height: 100%;
+}
+.image #four{
+    position: absolute;
+    top: 18%;
+    right: 4%;
+    width: 60%;
+    height: 80%;
+
+}
+#four .text{
+    font-family: Impact, Haettenschweiler, sans-serif;
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    font-weight: 100;
+    left: 50%;
+    top: 40%;
+    text-decoration: underline;
+    color: #fff;
+    z-index: 9;
+}
+#four>img{
+    width: 100%;
+    height: 100%;
+}
+/* --------=================================================== */
+.page5{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.page5>p{
+    margin-top: 20%;
+    text-align: center;
+    font-family: monument;
+}
+.page5>h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 8vw;
+    text-transform: uppercase;
+    text-align: center;
+}
+.page5>.bottles{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 70%;
+    height: 40%;
+    gap: 3vw;
+}
+/* =-------------=================================== */
+.page6{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.page6>h1{
+    padding:0px 100px;
+    color: brown;
+    font-size: 16vw;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+}
+.page6 .red{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 4%;
+    width: 95%;
+    height: 60%;
+    background-color: brown;
+    text-align: center;
+}
+.red>img{
+    width: 20%;
+    height: 50%;  
+}
+.red>button{
+    margin-top: 5%;
+   padding:  10px;
+   background-color: #000;
+   color: #fff;
+   transition: .5s ease;
+}
+.red>button:hover{
+    scale: 1.2;
+    background-color: rgb(251, 251, 251);
+    color: #000;
+}
+::-webkit-scrollbar{
+    display: none;
+}
